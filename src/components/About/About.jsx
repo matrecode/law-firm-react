@@ -59,6 +59,7 @@ const About = () => {
           </p>
         </div>
       </div>
+      <h1 className={styles.cardHeader}>Why Choose us?</h1>
       <div className={styles.card}>
         {cardData.map((data) => (
           <Card
